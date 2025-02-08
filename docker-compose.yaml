@@ -9,7 +9,4 @@ services:
       - ./data:/app/backend/data
     env_file:
       - .env
-    environment:
-      - WEBUI_AUTH=True
-      - DEFAULT_USER_ROLE=admin
     restart: always
